@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Declare variables for user info and print them</h2>
+<p id="demo1"></p>
+
+<script>
+let name = "misba";
+let rollno = 21;
+let email = "misba123@gmail.com";
+let city = "ahmedabad";
+
+document.getElementById("demo1").innerHTML =
+  "Name: " + name + "<br>" +
+  "Roll No: " + rollno + "<br>" +
+  "Email: " + email + "<br>" +
+  "City: " + city;
+</script>
+
+
+
+<h2>Convert string "25" to number and add 10</h2>
+<p id="demo2"></p>
+
+<script>
+let str = "25";
+let conv = Number(str) + 10;
+
+document.getElementById("demo2").innerHTML = conv;
+</script>
+
+
+
+<h2>Write a program to swap two numbers</h2>
+<p id="demo3"></p>
+
+<script>
+let a = 5;
+let b = 10;
+let toswap;
+
+toswap = a;
+a = b;
+b = toswap;
+
+document.getElementById("demo3").innerHTML =
+  "After swapping:<br>" +
+  "a = " + a + "<br>" +
+  "b = " + b;
+</script>
+
+<h2>Check if a value is truthy or falsy</h2>
+<p id="demo4"></p>
+
+<script>
+let value = 2;
+
+if (value) {
+  document.getElementById("demo4").innerHTML = "TRUE";
+} else {
+  document.getElementById("demo4").innerHTML = "FALSE";
+}
+</script>
+
+</body>
+</html>
