@@ -77,7 +77,8 @@ function ispalindrome(str){
         console.log("is not palindrome");
     }
 }
-console.log(ispalindrome("sunday"));
+console.log(ispalindrome("maam"));
+
 
 
 
