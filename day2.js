@@ -24,28 +24,42 @@ else{
     console.log('c is max' , +c)
 }
 
-//Print numbers 1–100 (skip multiples of 5)
-let i = 0;
-while(i < 100){
-    if(i % 5 != 0){
-        console.log(i);
-        i++;
-        }
+
+//Print numbers 0–100 (skip multiples of 5)
+let num = 0;
+while (num <= 100) {
+    if (num % 5 == 0) {
+        console.log(num);
+    }
+    num++;
+>>>>>>> 636730192e8a13b8933e16aa547dd29a77b14be9
 }
 
-//Simple calculator using switch
+// Simple calculator using switch
 
 const x = 100;
 const y = 50;
-let calc = "add";
 
-switch(calc){
+let calc = "sub";
+>>>>>>> 636730192e8a13b8933e16aa547dd29a77b14be9
+
+switch (calc) {
     case "add":
-        console.log("addition of x and y is ", x+y);
-    case "sub": 
-        console.log("subtraction of x and y is ", x-y);
+        console.log("addition of x and y is", x + y);
+        break;
+
+    case "sub":
+        console.log("subtraction of x and y is", x - y);
+        break;
+
     case "mul":
-        console.log("multiplication of x and y", x*y);
+        console.log("multiplication of x and y is", x * y);
+        break;
+
     case "div":
-        console.log("division of x and y is ", x/y)
+        console.log("division of x and y is", x / y);
+        break;
+
+    default:
+        console.log("Invalid operation");
 }
