@@ -103,8 +103,7 @@ h3 {
     opacity: 0.6;
 }
 
-
-.err {
+#err {
     color: red;
     font-size: 15px;
 }
@@ -115,8 +114,6 @@ h3 {
     margin: 10px ;
     width: 300px;
     border-radius: 8px;
-
-
 }
 
 .completed {
@@ -124,7 +121,15 @@ h3 {
 }
 
 .stats{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+span{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(225, 188, 220);
 }
