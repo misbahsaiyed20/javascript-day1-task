@@ -43,7 +43,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* space between cards */
+    gap: 20px; 
     padding-bottom: 30px;
 }
 
@@ -65,8 +65,7 @@ h3 {
 
 #btn{
      background-color:rgb(215, 199, 179);
-    
-    font-weight: bold;
+     font-weight: bold;
     color: black;
     padding: 5px;
 }
@@ -118,12 +117,6 @@ h3 {
     border-radius: 8px;
 
 
-}
-
-#actcontainer {
-    display: flex;
-    gap: 20px;
-    
 }
 
 .completed {
