@@ -64,18 +64,18 @@ function activitycard(activity) {
     date.textContent = "Created: " + activity.createdAt;
 
     const togglebtn = document.createElement("button");
-    togglebtn.textContent = "toggle";
+    togglebtn.textContent = "toggle Status";
 
     togglebtn.addEventListener("click", () => {
         activity.completed = !activity.completed;
 
         if (activity.completed) {
             status.textContent = "Status: Completed";
-            togglebtn.textContent = "Pending";
+            togglebtn.textContent = "toggle Status";
             card.classList.add("completed");
         } else {
             status.textContent = "Status: Pending";
-            togglebtn.textContent = "Done";
+            togglebtn.textContent = "toggle Status";
             card.classList.remove("completed");
         }
 
