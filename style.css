@@ -12,11 +12,10 @@ h3 {
     margin: 20px 0;
     background-color: rgb(208, 169, 192);
     font-size: x-large;
-    
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Add activity section */
+ 
 .add-activity {
     text-align: center;
     padding: 5px;
@@ -32,14 +31,14 @@ h3 {
     padding: 5px;
 }
 
-/* Error message */
+
 .err {
     color: red;
     font-size: 15px;
     margin-top: 8px;
 }
 
-/* Activity cards container */
+/* Activity cards*/
 #actcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -48,7 +47,7 @@ h3 {
     padding-bottom: 30px;
 }
 
-/* Card layout */
+
 .container1 {
     padding: 15px;
     width: 300px;
@@ -85,13 +84,11 @@ h3 {
 }
 
 
-/* Date text */
 .container1 h6 {
     margin: 8px 0;
     color: #444444;
 }
 
-/* Button */
 .container1 button {
     width: 100%;
     padding: 8px;
@@ -103,7 +100,6 @@ h3 {
     
 }
 
-/* Completed activity */
 .completed {
     opacity: 0.6;
 }
